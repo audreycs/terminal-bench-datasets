@@ -1,0 +1,13 @@
+{
+  "question_title": "find-valid-pair-of-adjacent-digits-in-string",
+  "question_content": "You are given a string s consisting only of digits. A valid pair is defined as two adjacent digits in s such that:\n\nThe first digit is not equal to the second.\nEach digit in the pair appears in s exactly as many times as its numeric value.\n\nReturn the first valid pair found in the string s when traversing from left to right. If no valid pair exists, return an empty string.\n \nExample 1:\n\nInput: s = \"2523533\"\nOutput: \"23\"\nExplanation:\nDigit '2' appears 2 times and digit '3' appears 3 times. Each digit in the pair \"23\" appears in s exactly as many times as its numeric value. Hence, the output is \"23\".\n\nExample 2:\n\nInput: s = \"221\"\nOutput: \"21\"\nExplanation:\nDigit '2' appears 2 times and digit '1' appears 1 time. Hence, the output is \"21\".\n\nExample 3:\n\nInput: s = \"22\"\nOutput: \"\"\nExplanation:\nThere are no valid adjacent pairs.\n\n \nConstraints:\n\n2 <= s.length <= 100\ns only consists of digits from '1' to '9'.",
+  "platform": "leetcode",
+  "question_id": "3736",
+  "contest_id": "biweekly-contest-149",
+  "contest_date": "2025-02-01T06:30:00",
+  "starter_code": "class Solution:\n    def findValidPair(self, s: str) -> str:\n        ",
+  "difficulty": "easy",
+  "public_test_cases": "[{\"input\": \"\\\"2523533\\\"\", \"output\": \"\\\"23\\\"\", \"testtype\": \"functional\"}, {\"input\": \"\\\"221\\\"\", \"output\": \"\\\"21\\\"\", \"testtype\": \"functional\"}, {\"input\": \"\\\"22\\\"\", \"output\": \"\\\"\\\"\", \"testtype\": \"functional\"}]",
+  "private_test_cases": "eJylls2qVFcQhTNwlpe49FiE+q/ySYSYQRAFQa6CfQchCD6EPktmebZ8dRME0UmzG7o5p/Y+1bVXrbXqfH7y9Z9ff3n8vPibi9/+ury9//BwvTy/u7y8VL28XJ7eXd4/XL/F/otcX3+8Xv/88Hpjbx7uX13fvr//493l09O77xLMHCaQ0wr0NIH4aQVxmCCkOtRVMt3UdHTCvXpy0iVLx8UmpDs9+A672tIz2B9WpcpTaeo97VJEPcs1hQ1BkO2nIHVUV0SGyFBpDTeS7VYjHqqRrTJNaTJlo26s8VVPLTUvjRkTV47hUZKhwkHYXxyAakN/LDH7NhxPT6l2mKCFM5sBzratW01U97wpdA9kZmgiO0BQjDAAqU3ykJTXdIGiAim9txIB59B9rts7okDwtMQ8VaydVmCnbeoJgJIUryqHdKADFxuiFcjHJDeNIBZK4JNRXcImPyP0pVgQz0FglpCQXpVmEkApZPc+dqVTkPQncrgpgR+7Uiw5V8hj3kCEkMe51UTyCnaIWmwV3oPnLOZ8CkUnscSpVvJYEdAambLWI9iMB6TD+MwfS6y5qUiais+MmtV6DYoJF2qY2WuCeKI3f2iRkqorrBHFGOEMVoWHUmKzOBk+SCzYXAiUA6BaEv+kyNtwBAtVpD2AiIfmxP6jBazMNXPwAbyCmFxg3FB2uUzt6B7Zp+/jAahNkBbg6fAcW2F1cP8+bbUHzlxBQ5EOzoUAmELYli9CeJDbDhL8ByAfV6xT6C8txNi2qA6ZKcEAZ82dmcAak6CgThiT6FTzp6Zx7DpySgQ7lXQ8Otz/MhJdwckjtp1MDSBnSCMuXhoK7Dsgx44f21/4t5TaZxi127xenZDOdgVBsH1UTks8BUlOK7DjBAyV2LcaT4wgGmanjeyUXthq8az1Ct7L4H3iMlAfXbCbFUbKvhUhm0Q5aNhmX4s2hBsmQz3zZir+/uXZv73ILHg=",
+  "metadata": "{\"func_name\": \"findValidPair\"}"
+}

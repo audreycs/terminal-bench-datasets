@@ -1,0 +1,13 @@
+{
+  "question_title": "existence-of-a-substring-in-a-string-and-its-reverse",
+  "question_content": "Given a string s, find any substring of length 2 which is also present in the reverse of s.\nReturn true if such a substring exists, and false otherwise.\n \nExample 1:\n\nInput: s = \"leetcode\"\nOutput: true\nExplanation: Substring \"ee\" is of length 2 which is also present in reverse(s) == \"edocteel\".\n\nExample 2:\n\nInput: s = \"abcba\"\nOutput: true\nExplanation: All of the substrings of length 2 \"ab\", \"bc\", \"cb\", \"ba\" are also present in reverse(s) == \"abcba\".\n\nExample 3:\n\nInput: s = \"abcd\"\nOutput: false\nExplanation: There is no substring of length 2 in s, which is also present in the reverse of s.\n\n \nConstraints:\n\n1 <= s.length <= 100\ns consists only of lowercase English letters.",
+  "platform": "leetcode",
+  "question_id": "3353",
+  "contest_id": "weekly-contest-389",
+  "contest_date": "2024-03-16T00:00:00",
+  "starter_code": "class Solution:\n    def isSubstringPresent(self, s: str) -> bool:\n        ",
+  "difficulty": "easy",
+  "public_test_cases": "[{\"input\": \"\\\"leetcode\\\"\", \"output\": \"true\", \"testtype\": \"functional\"}, {\"input\": \"\\\"abcba\\\"\", \"output\": \"true\", \"testtype\": \"functional\"}, {\"input\": \"\\\"abcd\\\"\", \"output\": \"false\", \"testtype\": \"functional\"}]",
+  "private_test_cases": "eJyllDmuHTYMRV0EXsfHq40swCtwl9ZAnELzSE0UNRkGsgh7v9YP3Djdx1MliAJ1eEndf//48df7d/+tz5/u5u+vD5cK9cfHl8eXx3YWoBZNJP1Bouh95joPJX3qpUbazXDOxGpFpdU1Z3artWKMZpMo4vimkQ/DCNjU2zcchfSIIkHIZ3HolL48Hh9eHpn6r1d7I/V60hX2vot6PdOURHc5sfj49uHlN0RFza7CTvF0TpQ+6xgdquP1MAN9nnkggtbHelEvb6FzA9zE2M5s4ujhlGkT+GZijOFGFa2DGxtQ2QaOK2ufRIyKaS6Y0k/mEZGfkKI/K66si2xlK46jyl2hgB8g0wi0yaI7bIFsNqwtnNKQvdGs18CSuiIN4lNVFrg8OtxWlRB4XI3NOseTiLgLxODk2rLfRquTRJDW2jxEMAKmSIf5yF2J4zTGKCrEbcxpITS9ZCy2H5quqjBcVkdCq4KtXHnDKSRjuSR8EvH2gan/59As4pum7tTquHAjYAV3XqfaOup1plWV8ILTanaaBr6tsnWdfq1bLKDTMd8PUQsl5sCRpFm5INR5jlJuq7b04Nm+OZ6scxuhZ03g5OH5nFDkLHMV6IuNahNagnHUCHdyKloZU+Rgc059aw+DdM2seJS4EJ2APVhf5QY2Nw5llHn7CE8izlyMk/aKiFXnDDGLoiH6duWr4MlZ0Xw/yjLF3Wxaa1vXMMl5saMNelUsblnulpeyDyvyvcCEVElceWngRPMkIk/XxkLF6qILSiQJsleEDFZfPAQ7FO4ek+vh8FQyGqXsrMuCCb0oVXZIKnAKw7ICytcSqqQY6yFfjdOY6TyJ2DUb28okTBvXrlhnseNpx7VyunbXIWb1QfHglyG3YRmejN29gqAczanDHG8zSq8h7eGn45RlHMnSNVFsgeSbTfqf73/+BDd/ZE4=",
+  "metadata": "{\"func_name\": \"isSubstringPresent\"}"
+}

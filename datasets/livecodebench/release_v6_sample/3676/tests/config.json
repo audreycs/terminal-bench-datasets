@@ -1,0 +1,13 @@
+{
+  "question_title": "smallest-number-with-all-set-bits",
+  "question_content": "You are given a positive number n.\nReturn the smallest number x greater than or equal to n, such that the binary representation of x contains only set bits\n \nExample 1:\n\nInput: n = 5\nOutput: 7\nExplanation:\nThe binary representation of 7 is \"111\".\n\nExample 2:\n\nInput: n = 10\nOutput: 15\nExplanation:\nThe binary representation of 15 is \"1111\".\n\nExample 3:\n\nInput: n = 3\nOutput: 3\nExplanation:\nThe binary representation of 3 is \"11\".\n\n \nConstraints:\n\n1 <= n <= 1000",
+  "platform": "leetcode",
+  "question_id": "3676",
+  "contest_id": "weekly-contest-426",
+  "contest_date": "2024-11-30T18:30:00",
+  "starter_code": "class Solution:\n    def smallestNumber(self, n: int) -> int:\n        ",
+  "difficulty": "easy",
+  "public_test_cases": "[{\"input\": \"5\", \"output\": \"7\", \"testtype\": \"functional\"}, {\"input\": \"10\", \"output\": \"15\", \"testtype\": \"functional\"}, {\"input\": \"3\", \"output\": \"3\", \"testtype\": \"functional\"}]",
+  "private_test_cases": "eJyllMEKwjAMhj0IvsboeUjTbGsj3nwJQTyITBjINrA7iAg+hL6vTjy4nNq0p7bw8ef/E/KYvzaL2fds15/L7qaath+8WmUKK5Vnqhv8713h+Pb1xftrX48/p6E9+qZrD2d1z7M/lJE2GCSHUxS0CZdFElds7BRFCEahZCWXEXZtgl0rTRlIbrYQmwV5xORMQk4kL1lrnSAMfJjDlQ2KwzKFvLtOrgpiFOWoEweMDI3YFQBiVSI+jFGDTHzVRG1HFDsmx4OOK7tKoV0KzVsVIRvZqf1z+QbACTLW",
+  "metadata": "{\"func_name\": \"smallestNumber\"}"
+}
