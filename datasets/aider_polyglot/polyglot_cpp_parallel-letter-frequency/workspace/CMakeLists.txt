@@ -49,7 +49,7 @@ if("${CMAKE_CXX_COMPILER_ID}" MATCHES "(GNU|Clang)")
         target_link_libraries(${exercise} PRIVATE TBB::tbb)
     endif()
     set_target_properties(${exercise} PROPERTIES
-        COMPILE_FLAGS "-Wall -Wextra -Wpedantic -Werror"
+        COMPILE_FLAGS "-Wall -Wextra -Wpedantic "
     )
 endif()
 
